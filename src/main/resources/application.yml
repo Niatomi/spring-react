@@ -1,0 +1,10 @@
+server:
+  port: ${server_port:8080}
+spring:
+  application:
+    name: react-app
+  profiles:
+    active: prod
+  jpa:
+    hibernate:
+      ddl-auto: update

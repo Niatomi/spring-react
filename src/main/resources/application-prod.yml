@@ -1,0 +1,13 @@
+spring:
+  activate:
+    on-profile: prod
+  h2:
+    console:
+      enabled: false
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/keylock_db
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: false
