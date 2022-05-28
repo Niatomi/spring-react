@@ -1,6 +1,7 @@
 package ru.niatomi.react.springreact.model.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import ru.niatomi.react.springreact.model.domain.enumerations.Gender;
 
 import java.util.UUID;
@@ -9,6 +10,7 @@ import java.util.UUID;
  * @author niatomi
  */
 @AllArgsConstructor
+@Getter
 public class Student {
 
     private final UUID studentId;
